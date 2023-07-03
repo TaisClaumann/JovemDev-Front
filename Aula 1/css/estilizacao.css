@@ -1,0 +1,67 @@
+h1{
+    color: red;
+    font-size: 40px;
+}
+
+.destaque{
+    color: yellow;
+    background-color: black;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.tituloTbl{
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+}
+
+.containerAmarelo{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border: black solid 3px; 
+    border-radius: 20px;
+    margin: 10px;
+    padding: 30px;
+}
+
+a:link{
+    color: blue;
+}
+a:hover{
+    color: white;
+    background-color: black;
+}
+
+a:visited{
+    color: gray;
+}
+
+a:active{
+    color: orange;
+}
+
+ul li{
+    color: green;
+}
+
+.lista{
+    width: 200px;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    border-left: black solid;
+    border-right: black solid;
+    text-align: center;
+    margin: 10px;
+}
+
+.containerLista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
