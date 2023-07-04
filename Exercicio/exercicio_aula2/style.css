@@ -1,0 +1,59 @@
+form{
+    max-width: 450px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.margem{
+    margin-bottom: 20px;
+}
+
+.margemRadio{
+    margin-bottom: 20px;
+    margin-right: 2%;
+}
+
+textarea{
+    margin-top: 30px;
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+input[type="text"]{
+    width: 85%;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 3%;
+    margin-bottom: 7%;
+    color: #8a4e9c;
+}
+
+.buttonSubmit{
+    margin-bottom: 20px;
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    background-color: #8a4e9c;
+    color: #fff;
+    padding: 9px 20px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: medium;
+    cursor: pointer;
+}
+
+
