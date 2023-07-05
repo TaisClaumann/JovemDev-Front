@@ -3,7 +3,7 @@ function calculaImc(){
     const peso = document.getElementById("peso").value;
     const altura = document.getElementById("altura").value;
 
-    const imc = (peso/altura*altura);
+    const imc = (peso/(altura*altura)).toFixed(2);
     const sexo = document.querySelector('input[name="sexo"]:checked').id;
 
     let msg = `Nome: ${nome}\nPeso: ${peso}\nAltura: ${altura}\nSexo: ${sexo}\nIMC: ${imc} -> `;
